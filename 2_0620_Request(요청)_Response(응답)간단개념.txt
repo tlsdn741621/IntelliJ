@@ -1,0 +1,67 @@
+HTTP Request와 Response: 웹과 서블릿의 기본 개념
+
+## 1. HTTP 요청(Request)과 응답(Response) 기본 개념
+
+### HTTP 요청(Request
+HTTP 요청은 클라이언트(브라우저)가 서버에 정보를 요청하는 메시지입니다.
+
+**주요 구성 요소:**
+1. **요청 라인(Request Line)**: 요청 메서드, 리소스 경로(URL), HTTP 버전
+2. **헤더(Headers)**: 요청과 관련된 추가 정보 (key-value 쌍)
+3. **빈 줄**: 헤더와 본문 사이의 구분자
+4. **본문(Body)**: 서버로 전송할 데이터 (선택 사항)
+
+**예시:**
+```
+GET /index.html HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0
+Accept-Language: ko-KR
+```
+
+### HTTP 응답(Response)
+HTTP 응답은 서버가 클라이언트의 요청에 대한 결과를 전송하는 메시지입니다.
+
+**주요 구성 요소:**
+1. **상태 라인(Status Line)**: HTTP 버전, 상태 코드, 상태 메시지
+2. **헤더(Headers)**: 응답과 관련된 추가 정보
+3. **빈 줄**: 헤더와 본문 사이의 구분자
+4. **본문(Body)**: 클라이언트에게 전송할 데이터
+
+**예시:**
+```
+HTTP/1.1 200 OK
+Date: Thu, 19 Jun 2025 06:09:08 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 138
+
+<!DOCTYPE html>
+<html>
+<head><title>예제 페이지</title></head>
+<body><h1>안녕하세요!</h1></body>
+</html>
+```
+
+## 2. HTTP 요청 메서드
+
+### 주요 HTTP 메서드
+
+| 메서드 | 설명 | 특징 |
+|--------|------|------|
+| **GET** | 리소스 조회 | - URL에 데이터 노출<br>- 캐싱 가능<br>- 북마크 가능<br>- 데이터 크기 제한 |
+| **POST** | 리소스 생성/수정 | - 본문에 데이터 포함<br>- 캐싱 불가<br>- 북마크 불가<br>- 데이터 크기 제한 없음 |
+| **PUT** | 리소스 전체 교체/생성 | - 멱등성 보장(같은 요청 여러번 해도 결과 동일) |
+| **PATCH** | 리소스 부분 수정 | - 변경할 부분만 전송 |
+| **DELETE** | 리소스 삭제 | - 멱등성 보장 |
+| **HEAD** | 헤더만 조회 | - GET과 동일하나 본문 없음 |
+| **OPTIONS** | 지원 메서드 확인 | - CORS에 주로 사용 |
+
+## 3. 서블릿(Servlet) 구조와 동작 방식
+
+### 서블릿이란?
+**서블릿(Servlet)**은 Java 언어를 기반으로 웹 애플리케이션을 개발할 수 있는 API 및 명세입니다. 클라이언트의 요청을 처리하고 응답을 생성하는 Java 클래스입니다.
+
+### 서블릿 생명주기
+1. **초기화(init)**: 서블릿 인스턴스 생성 시 한 번 실행
+2. **서비스(service)**: 클라이언트 요청마다 실행, doGet(), doPost() 등을 호출
+3. **소멸(destroy)**: 서블릿 종료 시 한 번 실행, 리소스 해제
