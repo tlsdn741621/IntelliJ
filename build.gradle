@@ -26,6 +26,16 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+
+    // 외부 기능 탑재
+    // JSTL, 자바 문법을 간결히 해서, 화면상에서 이용하는 도구.
+    // jsp 가 아닌 , html 타임리프를 이용할 예정. 거의 비슷함.
+    // mvnRepository 사이트에서, 라이브러리 검색 방법.
+    //
+    // https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl
+    // 리프레쉬 하기.
+    implementation group: 'jstl', name: 'jstl', version: '1.2'
+
 }
 
 test {

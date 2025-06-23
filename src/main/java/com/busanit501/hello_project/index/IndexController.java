@@ -1,4 +1,4 @@
-package index;
+package com.busanit501.hello_project.index;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "indexController", urlPatterns = "/index")
+@WebServlet(name = "indexController", urlPatterns = "/com/busanit501/hello_project/index")
 public class IndexController extends HttpServlet {
     // 화면 제공. ->
     @Override

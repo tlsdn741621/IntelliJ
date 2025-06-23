@@ -4,14 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3c18b02-1279-4dca-a8a0-0acc4bad79ef" name="변경" comment="250620 1203">
-      <change afterPath="$PROJECT_DIR$/6_0620_JSP 화면 및 다른 화면 주의사항.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7_0620_웹 MVC 패턴_서블릿_jsp차이점비교.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_0620_RequestDispatcher_WEB_INF 간단 설명.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/calc/CalcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/calc/InputController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/index/IndexController.java" afterDir="false" />
+    <list default="true" id="c3c18b02-1279-4dca-a8a0-0acc4bad79ef" name="변경" comment="250623 0911">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_0623_Todo_구조 설명.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_0623_DTO기초.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_0623_enum_기초.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_0623_JSTL_기초.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_0623_PRG패턴기초.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/todo/controller/TodoListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/todo/controller/TodoReadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/todo/controller/TodoRegController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/todo/dto/TodoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/todo/service/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calc/calcResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calc/input.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoRead.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoReg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_0620_EL표기법기초1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/5_0620_EL표기법기초1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_0620_JSP 화면 및 다른 화면 주의사항.txt" beforeDir="false" afterPath="$PROJECT_DIR$/6_0620_JSP 화면 및 다른 화면 주의사항.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/KswServlet.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/calc/CalcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/calc/CalcController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/index/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/index/IndexController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +67,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -88,10 +114,11 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat 서버.index.jsp.executor": "Run",
     "Tomcat 서버.tomcat9.executor": "Run",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/it/Documents/0-busanit501-spring/Hello_Project/src/main/java/com/busanit501/hello_project",
+    "last_opened_file_path": "C:/Users/it/Documents/0-busanit501-spring/Hello_Project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,13 +130,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project" />
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\java\com\busanit501\hello_project" />
-      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project" />
+      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\java\com\busanit501\hello_project\calc" />
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\webapp\calc" />
-      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -228,7 +256,7 @@
       <workItem from="1750379177624" duration="1417000" />
       <workItem from="1750381169446" duration="533000" />
       <workItem from="1750381722056" duration="5927000" />
-      <workItem from="1750636753976" duration="357000" />
+      <workItem from="1750636753976" duration="19965000" />
     </task>
     <task id="LOCAL-00001" summary="250619 1530">
       <option name="closed" value="true" />
@@ -278,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750388620927</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="250623 0911">
+      <option name="closed" value="true" />
+      <created>1750637474221</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750637474221</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +337,7 @@
     <MESSAGE value="250619 1554" />
     <MESSAGE value="250619 1556" />
     <MESSAGE value="250620 1203" />
-    <option name="LAST_COMMIT_MESSAGE" value="250620 1203" />
+    <MESSAGE value="250623 0911" />
+    <option name="LAST_COMMIT_MESSAGE" value="250623 0911" />
   </component>
 </project>
