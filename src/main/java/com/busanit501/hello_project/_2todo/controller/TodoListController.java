@@ -1,7 +1,7 @@
-package com.busanit501.hello_project.todo.controller;
+package com.busanit501.hello_project._2todo.controller;
 
-import com.busanit501.hello_project.todo.dto.TodoDTO;
-import com.busanit501.hello_project.todo.service.TodoService;
+import com.busanit501.hello_project._2todo.dto.TodoDTO;
+import com.busanit501.hello_project._2todo.service.TodoService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet(name = "todoListController" , urlPatterns = "/todo/list")
