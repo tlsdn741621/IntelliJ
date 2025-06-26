@@ -31,7 +31,12 @@ DBCP, C3PO, 라이브러리, 커넥션 풀 관련 기능들,
 
 ## HikariCP란?
 
-HikariCP는 가볍고 빠르며 안정적인 JDBC 커넥션 풀(Connection Pool) 라이브러리입니다. "Hikari"는 일본어로 "빛"을 의미하며, 이름처럼 매우 빠른 성능을 자랑합니다. Brett Wooldridge가 개발한 이 라이브러리는 현재 Spring Boot 2.0 이상 버전에서 기본 커넥션 풀로 채택되었습니다.
+HikariCP는 가볍고 빠르며 안정적인
+JDBC 커넥션 풀(Connection Pool) 라이브러리입니다.
+"Hikari"는 일본어로 "빛"을 의미하며,
+이름처럼 매우 빠른 성능을 자랑합니다.
+Brett Wooldridge가 개발한 이 라이브러리는
+ 현재 Spring Boot 2.0 이상 버전에서 기본 커넥션 풀로 채택되었습니다.
 
 ## 커넥션 풀(Connection Pool)의 필요성
 
@@ -41,7 +46,8 @@ HikariCP는 가볍고 빠르며 안정적인 JDBC 커넥션 풀(Connection Pool)
 3. 권한 검사
 4. 연결 상태 설정
 
-매 요청마다 이 과정을 반복하면 성능 저하가 발생합니다. 커넥션 풀은 미리 연결을 생성하고 재사용하여 이 문제를 해결합니다.
+매 요청마다 이 과정을 반복하면 성능 저하가 발생합니다.
+커넥션 풀은 미리 연결을 생성하고 재사용하여 이 문제를 해결합니다.
 
 ## HikariCP의 특징
 
@@ -222,7 +228,12 @@ HikariCP는 성능, 안정성, 사용 편의성의 균형을 잘 맞춘 JDBC 커
 
 ## PreparedStatement 캐시 옵션의 개념
 
-HikariCP에서 제공하는 PreparedStatement 캐시 옵션은 SQL 쿼리 실행 성능을 크게 향상시키는 중요한 기능입니다. 이 옵션들은 HikariCP 자체 기능이 아니라 JDBC 드라이버(특히 MySQL)에 전달되는 속성으로, 데이터베이스 연결당 PreparedStatement 객체를 캐싱하여 재사용함으로써 성능을 최적화합니다.
+HikariCP에서 제공하는 PreparedStatement 캐시 옵션은
+SQL 쿼리 실행 성능을 크게 향상시키는 중요한 기능입니다.
+이 옵션들은 HikariCP 자체 기능이 아니라
+JDBC 드라이버(특히 MySQL)에 전달되는 속성으로,
+데이터베이스 연결당 PreparedStatement 객체를 캐싱하여 재사용함으로써
+성능을 최적화합니다.
 
 ## 주요 PreparedStatement 캐시 옵션 설명
 
@@ -244,11 +255,14 @@ config.addDataSourceProperty("cachePrepStmts", "true");
 config.addDataSourceProperty("prepStmtCacheSize", "250");
 ```
 
-- **개념**: 각 연결(Connection)당 캐시할 수 있는 PreparedStatement의 최대 개수입니다.
+- **개념**: 각 연결(Connection)당 캐시할 수 있는
+PreparedStatement의 최대 개수입니다.
 - **기본값**: 일반적으로 JDBC 드라이버에서 매우 작은 값(25 이하)으로 설정됨
-- **권장 값**: 애플리케이션에서 사용하는 고유 SQL 문의 수에 따라 결정 (일반적으로 250-500)
+- **권장 값**: 애플리케이션에서 사용하는 고유
+SQL 문의 수에 따라 결정 (일반적으로 250-500)
 - **효과**: 이 값을 늘리면 더 많은 다양한 SQL 문이 캐시될 수 있습니다.
-- **메모리 영향**: 값이 클수록 메모리 사용량이 증가하지만, 현대 시스템에서 250-500 정도의 PreparedStatement를 저장하는 것은 큰 부담이 아닙니다.
+- **메모리 영향**: 값이 클수록 메모리 사용량이 증가하지만,
+현대 시스템에서 250-500 정도의 PreparedStatement를 저장하는 것은 큰 부담이 아닙니다.
 
 ### 3. prepStmtCacheSqlLimit (SQL 문 크기 제한)
 

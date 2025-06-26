@@ -11,8 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-<h1>동록 임시 화면</h1>
-<form action="/todo/register2" method="post">
+<h1>등록 임시 화면 </h1>
+<form action="/todo/register2 " method="post">
     <div>
     <input type="text" name="title" placeholder="todo의 제목을 입력 해주세요">
     </div>
@@ -21,8 +21,9 @@
     </div>
     <div>
     <button type="reset">리셋</button>
-    <button type="submit">등록 처리</button>
+    <button type="submit">등록처리</button>
     </div>
+
 </form>
 </body>
 </html>

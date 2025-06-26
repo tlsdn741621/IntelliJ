@@ -4,61 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3c18b02-1279-4dca-a8a0-0acc4bad79ef" name="변경" comment="250623 1732">
-      <change afterPath="$PROJECT_DIR$/memo/14_0624_mariadb설치_도커버전.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memo/15_0624_마리아디비_시간동기화 설정.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memo/16_0624_JDBC_설정_.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memo/17_lombok_설정.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memo/18_HikariCP설정.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoReadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoRegController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/dao/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/dao/TodoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/domain/TodoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/dto/TodoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/service/TodoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/util/MapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoList_backup.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/busanit501/dao/ConnectTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/busanit501/dao/TodoDAOTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/busanit501/service/TodoServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
+    <list default="true" id="c3c18b02-1279-4dca-a8a0-0acc4bad79ef" name="변경" comment="250625 1734">
+      <change afterPath="$PROJECT_DIR$/memo/19_0626_쿠키-세션-필터-리스너-간단개념.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoDeleteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoUpdateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/filter/LoginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/filter/UTF8Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoRead2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoUpdate.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_0623_Todo_구조 설명.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/10_0623_Todo_구조 설명.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_0623_DTO기초.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/11_0623_DTO기초.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_0623_enum_기초.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/12_0623_enum_기초.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_0623_JSTL_기초.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/13_0623_JSTL_기초.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_서블릿이란_.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/1_서블릿이란_.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_0620_Request(요청)_Response(응답)간단개념.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/2_0620_Request(요청)_Response(응답)간단개념.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_0620_쿼리스트링과파라미터.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/3_0620_쿼리스트링과파라미터.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_0620_get_post_비교표.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/4_0620_get_post_비교표.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_0620_EL표기법기초1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/5_0620_EL표기법기초1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_0620_JSP 화면 및 다른 화면 주의사항.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/6_0620_JSP 화면 및 다른 화면 주의사항.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_0620_웹 MVC 패턴_서블릿_jsp차이점비교.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/7_0620_웹 MVC 패턴_서블릿_jsp차이점비교.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_0620_RequestDispatcher_WEB_INF 간단 설명.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/8_0620_RequestDispatcher_WEB_INF 간단 설명.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_0623_PRG패턴기초.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/9_0623_PRG패턴기초.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/todo/controller/TodoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_2todo/controller/TodoListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/todo/controller/TodoReadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_2todo/controller/TodoReadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/todo/controller/TodoRegController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_2todo/controller/TodoRegController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/todo/dto/TodoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_2todo/dto/TodoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/todo/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_2todo/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memo/17_lombok_설정.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/17_lombok_설정.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memo/18_HikariCP설정.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/18_HikariCP설정.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoReadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoReadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoRegController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoRegController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/dao/TodoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/dao/TodoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/service/TodoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoRead.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoRead.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoReg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoReg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/busanit501/dao/TodoDAOTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/busanit501/dao/TodoDAOTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/busanit501/service/TodoServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/busanit501/service/TodoServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +74,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Enum" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -142,7 +118,9 @@
   "keyToString": {
     "Gradle.Busanit501-Spring-Test 빌드.executor": "Run",
     "Gradle.Hello_Project 빌드.executor": "Run",
+    "Gradle.TodoServiceTests.testModify.executor": "Run",
     "Gradle.TodoServiceTests.testRegister.executor": "Run",
+    "Gradle.TodoServiceTests.testRemove.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -150,7 +128,7 @@
     "Tomcat 서버.index.jsp.executor": "Run",
     "Tomcat 서버.tomcat9.executor": "Run",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/it/Documents/0-busanit501-spring/Hello_Project/src/main/webapp/WEB-INF/todo",
+    "last_opened_file_path": "C:/Users/it/Documents/0-busanit501-spring/Hello_Project/src/main/java/com/busanit501/hello_project/_3jdbc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -170,11 +148,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\java\com\busanit501\hello_project\_3jdbc" />
+      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\memo" />
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\webapp\WEB-INF\todo" />
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\test\java" />
-      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\java\com\busanit501\hello_project" />
-      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\memo" />
-      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\memo" />
@@ -182,10 +160,35 @@
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.busanit501.hello_project._3jdbc.controller" />
       <recent name="index" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat 서버.tomcat9">
+    <configuration name="TodoServiceTests.testModify" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.busanit501.service.TodoServiceTests.testModify&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="TodoServiceTests.testRegister" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -200,6 +203,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.busanit501.service.TodoServiceTests.testRegister&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoServiceTests.testRemove" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.busanit501.service.TodoServiceTests.testRemove&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -300,11 +327,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.TodoServiceTests.testModify" />
+      <item itemvalue="Gradle.TodoServiceTests.testRemove" />
       <item itemvalue="Gradle.TodoServiceTests.testRegister" />
       <item itemvalue="Tomcat 서버.tomcat9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TodoServiceTests.testModify" />
+        <item itemvalue="Gradle.TodoServiceTests.testRemove" />
         <item itemvalue="Gradle.TodoServiceTests.testRegister" />
       </list>
     </recent_temporary>
@@ -334,7 +365,8 @@
       <workItem from="1750381722056" duration="5927000" />
       <workItem from="1750636753976" duration="21039000" />
       <workItem from="1750810113295" duration="1105000" />
-      <workItem from="1750811431396" duration="19142000" />
+      <workItem from="1750811431396" duration="20137000" />
+      <workItem from="1750896397402" duration="18247000" />
     </task>
     <task id="LOCAL-00001" summary="250619 1530">
       <option name="closed" value="true" />
@@ -400,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750667540048</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="250625 1734">
+      <option name="closed" value="true" />
+      <created>1750840481431</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750840481431</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,6 +465,7 @@
     <MESSAGE value="250620 1203" />
     <MESSAGE value="250623 0911" />
     <MESSAGE value="250623 1732" />
-    <option name="LAST_COMMIT_MESSAGE" value="250623 1732" />
+    <MESSAGE value="250625 1734" />
+    <option name="LAST_COMMIT_MESSAGE" value="250625 1734" />
   </component>
 </project>

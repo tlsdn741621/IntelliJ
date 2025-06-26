@@ -14,10 +14,31 @@
     <title>Title</title>
 </head>
 <body>
+
+<h1>세션 정보 확인</h1>
+<%----%>
+<%--조건부 출력--%>
+<c:if test="${not empty sessionScope.loginInfo}">
+    <p>로그인 상태 : 로그인 된 경우</p>
+    <p>EL 표기법, 간단히 로그인 정보 : ${sessionScope.loginInfo}</p>
+    <form action="/logout" method="post">
+        <button type="submit">로그아웃</button>
+    </form>
+</c:if>
+<c:if test="${empty sessionScope.loginInfo}">
+    <p>로그인 상태 : 로그인 되지않음.</p>
+</c:if>
+
 <h1>Todo List 임시 화면</h1>
-<c:forEach items="${dtoList}" var = "dto">
-    <li>${dto}</li>
-</c:forEach>
+<a href="/todo/register2">글쓰기</a>
+    <c:forEach items="${dtoList}" var = "dto">
+        <li>
+            <span><a href="/todo/read2?tno=${dto.tno}">${dto.tno}</a></span>
+            <span>${dto.title}</span>
+            <span>${dto.dueDate}</span>
+            <span>${dto.finished ? "완료" : "미완료"}</span>
+        </li>
+    </c:forEach>
 
 </body>
 </html>

@@ -34,4 +34,35 @@ public class TodoServiceTests {
         // 서비스에서 기능 테스트.
         todoService.register(todoDTO);
     }
+
+    // 하나 조회 기능.
+    @Test
+    public void testGetByTno() throws Exception{
+        // 실제 조회 할 디비 데이터 내용 파악.
+        TodoDTO todoDTO = todoService.getByTno(13L);
+        log.info("서비스 단위테스트 하나조회 확인 ");
+        log.info("todoDTO:"+todoDTO);
+
+    }
+
+    // 삭제 기능.
+    @Test
+    public void testRemove() throws Exception{
+        // 실제 삭제 할 tno 번호 파악
+        todoService.remove(10L);
+        log.info("서비스 단위테스트 삭제 확인 ");
+
+    }
+
+    // 수정 기능
+    @Test
+    public void testModify() throws Exception{
+        // 실제 수정 할 데이터 파악
+        TodoDTO todoDTO = todoService.getByTno(4L);
+        // 변경할 내용이 빠짐
+        todoDTO.setTitle("제목만 변경해보기.");
+        log.info("서비스 단위테스트 수정 확인 todoDTO :"+todoDTO);
+        todoService.modify(todoDTO);
+        log.info("서비스 단위테스트 수정 확인2");
+    }
 }

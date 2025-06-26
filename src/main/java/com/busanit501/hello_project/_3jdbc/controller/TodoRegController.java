@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -20,10 +21,34 @@ public class TodoRegController extends HttpServlet {
     // 외주 맡기기, 등록을 구현 할수 있는  , TodoService 외주 요청. 준비.
     private TodoService todoService = TodoService.INSTANCE;
     private final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         log.info("TodoRegController : 등록 화면 제공 , doGet 작업");
+
+        //=======================================================================
+        // 추가 작업, 세션을 이용한 , 시스템이 제공한 세션 확인.
+        HttpSession session = req.getSession();
+
+        // 기존에 JSESSIONID 가 없는 새로운 사용자 확인. -> 최초 웹서버에 접근 한 상태.
+        if(session.isNew()) {
+            log.info("JSESSIONID 시스템 쿠키가 새로 만들어진 사용자");
+            // 미구현
+            resp.sendRedirect("/login");
+            return;
+
+        }
+        // JSSESIONID 는 있지만, 해당 세션 컨텍스트에 loginInfo 이름으로 저장된 객체가 없는 경우
+        if(session.getAttribute("loginInfo") == null) {
+            log.info("로그인 정보가 없는 사용자");
+            resp.sendRedirect("/login");
+            return;
+        }
+
+        // 정상적인 상태, 1) JSSESIONID 존재, 2) 세션이라는 서버의 임시 메모리 공간에 키: loginInfo 있다면,
+        // 정상인 경우만, 글쓰기 폼 화면으로 안내 하겠다.
+        req.getRequestDispatcher("/WEB-INF/todo/todoReg.jsp").forward(req, resp);
+        //=======================================================================
+
         // 화면 전달 먼저 하기.
         req.getRequestDispatcher("/WEB-INF/todo/todoReg.jsp").forward(req, resp);
     }
@@ -37,7 +62,7 @@ public class TodoRegController extends HttpServlet {
         // 현재 방법1, 코드로 처리 했고,
         // 방법2) 뒤에서 처리하기.
         // web.xml, 서버 시작 할 때, 항상 들어오는 데이터 타입을  UTF-8 기본설정.
-        req.setCharacterEncoding("UTF-8");
+//        req.setCharacterEncoding("UTF-8");
         TodoDTO todoDTO = TodoDTO.builder()
                 .title(req.getParameter("title"))
                 .dueDate(LocalDate.parse(req.getParameter("dueDate"), formatter))

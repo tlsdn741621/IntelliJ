@@ -159,7 +159,8 @@ compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.36'
  }
  ```
 
- ## 4. @NoArgsConstructor, @AllArgsConstructor, @RequiredArgsConstructor
+ ## 4. @NoArgsConstructor, @AllArgsConstructor,
+ @RequiredArgsConstructor
 
  **개념**: 다양한 생성자를 자동으로 생성합니다.
 
@@ -178,7 +179,8 @@ compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.36'
      private double price;
  }
 
- @RequiredArgsConstructor // @NonNull 필드나 final 필드만을 파라미터로 하는 생성자
+ @RequiredArgsConstructor
+ // @NonNull 필드나 final 필드만을 파라미터로 하는 생성자
  class Category {
      private Long id;
      @NonNull private String name;
@@ -209,7 +211,9 @@ compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.36'
 
  ## 5. @Data
 
- **개념**: @Getter, @Setter, @ToString, @EqualsAndHashCode, @RequiredArgsConstructor를 모두 포함하는 복합 어노테이션입니다.
+ **개념**:
+ @Getter, @Setter, @ToString, @EqualsAndHashCode,
+ @RequiredArgsConstructor를 모두 포함하는 복합 어노테이션입니다.
 
  **예시**:
  ```java
@@ -316,7 +320,8 @@ compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.36'
 
  ## 9. @Cleanup
 
- **개념**: 자원을 자동으로 닫아주는 try-with-resources 문법과 유사한 기능을 제공합니다.
+ **개념**: 자원을 자동으로 닫아주는
+ try-with-resources 문법과 유사한 기능을 제공합니다.
 
  **예시**:
  ```java
