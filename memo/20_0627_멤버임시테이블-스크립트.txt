@@ -1,0 +1,15 @@
+로그인 테스트 용  테이블
+create table tbl_member (
+                           mid varchar(50) primary key,
+                           mpw varchar(50) not null,
+                           mname varchar(100) not null
+);
+insert into tbl_member ( mid, mpw, mname) values ('lsy','1234','이상용1');
+insert into tbl_member ( mid, mpw, mname) values ('lsy2','1234','이상용2');
+
+select * from tbl_member;
+
+1차 진행
+=====================================================================
+2차 진행
+alter table tbl_member add column uuid varchar(50);

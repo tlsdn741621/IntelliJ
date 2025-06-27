@@ -1,0 +1,38 @@
+ Optional<T>의 개념
+널(null) 안전성
+
+전통적으로 메서드가 객체를 찾지 못하면 null을 반환하고 호출 측에서 NullPointerException을 방지하기 위해 null 검사를 해야 했습니다.
+
+Optional<T>는 값이 있을 수도, 없을 수도 있음을 명시적으로 표현합니다.
+
+주요 메서드
+
+isPresent(): 값이 있으면 true
+
+get(): 값을 꺼낼 때 사용(값이 없으면 NoSuchElementException)
+
+ifPresent(Consumer): 값이 있을 때만 소비자 실행
+
+orElse(default): 값이 없으면 기본값 반환
+
+orElseThrow(): 값이 없으면 예외 던짐
+
+
+ 장단점 및 활용 팁
+장점
+
+코드 읽기 쉽고 의도를 명확히 드러냄 (null 체크 ↔ isPresent)
+
+map, flatMap을 이용해 값 변환이나 체이닝이 유연
+
+단점
+
+과도한 Optional 사용은 오히려 복잡도를 높일 수 있음
+
+컬렉션 요소로 쓰거나 직렬화 시 주의 필요
+
+팁
+
+Optional은 반환 타입으로만 사용하고, 필드나 파라미터 타입으로는 피하는 것이 권장됩니다.
+
+orElseGet() vs orElse(): 기본값 생성 비용이 큰 경우 orElseGet(Supplier) 사용

@@ -82,6 +82,10 @@ String loginInfoSession = (String) session.getAttribute("loginInfo"); // Object 
 3. **Session Scope**: `HttpSession.setAttribute()`로 저장한 변수
 4. **Application Scope**: `ServletContext.setAttribute()`로 저장한 변수
 
+결론, 화면에서, jsp 화면에서, ${loginInfo} 접근 순서
+위에서, 1 -> 2 -> 3-> 4 , 모두 검색하고, 그리고 없으면, 진짜 없음.
+
+
 ## 필터와 리스너
 
 ### 필터

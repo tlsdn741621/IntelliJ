@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3c18b02-1279-4dca-a8a0-0acc4bad79ef" name="변경" comment="250625 1734">
-      <change afterPath="$PROJECT_DIR$/memo/19_0626_쿠키-세션-필터-리스너-간단개념.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoDeleteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoUpdateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/filter/LoginCheckFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/filter/UTF8Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoRead2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoUpdate.jsp" afterDir="false" />
+    <list default="true" id="c3c18b02-1279-4dca-a8a0-0acc4bad79ef" name="변경" comment="250626 1655">
+      <change afterPath="$PROJECT_DIR$/memo/20_0627_멤버임시테이블-스크립트.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memo/21_0627_UUID_기본_개념.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memo/22_0627_Optional 클래스 기본 개념.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/dao/MemberDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/domain/MemberVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/dto/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/busanit501/dao/MemberDAOTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/busanit501/service/MemberServiceTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
@@ -24,17 +23,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memo/17_lombok_설정.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/17_lombok_설정.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memo/18_HikariCP설정.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/18_HikariCP설정.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memo/19_0626_쿠키-세션-필터-리스너-간단개념.txt" beforeDir="false" afterPath="$PROJECT_DIR$/memo/19_0626_쿠키-세션-필터-리스너-간단개념.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoReadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoReadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoRegController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/controller/TodoRegController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/dao/TodoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/dao/TodoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busanit501/hello_project/_3jdbc/filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoReg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/todoReg.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/busanit501/dao/TodoDAOTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/busanit501/dao/TodoDAOTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/busanit501/service/TodoServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/busanit501/service/TodoServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +68,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Jsp File" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -118,6 +112,12 @@
   "keyToString": {
     "Gradle.Busanit501-Spring-Test 빌드.executor": "Run",
     "Gradle.Hello_Project 빌드.executor": "Run",
+    "Gradle.MemberDAOTests.getMembers.executor": "Run",
+    "Gradle.MemberDAOTests.testSearchWithUuid.executor": "Run",
+    "Gradle.MemberDAOTests.testUpdateUuid.executor": "Run",
+    "Gradle.MemberServiceTests.testLogin.executor": "Run",
+    "Gradle.MemberServiceTests.testSearchWithUuid.executor": "Run",
+    "Gradle.MemberServiceTests.updateUuid.executor": "Run",
     "Gradle.TodoServiceTests.testModify.executor": "Run",
     "Gradle.TodoServiceTests.testRegister.executor": "Run",
     "Gradle.TodoServiceTests.testRemove.executor": "Run",
@@ -128,7 +128,7 @@
     "Tomcat 서버.index.jsp.executor": "Run",
     "Tomcat 서버.tomcat9.executor": "Run",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/it/Documents/0-busanit501-spring/Hello_Project/src/main/java/com/busanit501/hello_project/_3jdbc",
+    "last_opened_file_path": "C:/Users/it/Documents/0-busanit501-spring/Hello_Project/memo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -148,9 +148,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\memo" />
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\java\com\busanit501\hello_project\_3jdbc" />
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\memo" />
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\main\webapp\WEB-INF\todo" />
       <recent name="C:\Users\it\Documents\0-busanit501-spring\Hello_Project\src\test\java" />
     </key>
@@ -164,8 +164,8 @@
       <recent name="index" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat 서버.tomcat9">
-    <configuration name="TodoServiceTests.testModify" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MemberServiceTests.testSearchWithUuid">
+    <configuration name="MemberDAOTests.testSearchWithUuid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -178,7 +178,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.busanit501.service.TodoServiceTests.testModify&quot;" />
+            <option value="&quot;com.busanit501.dao.MemberDAOTests.testSearchWithUuid&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -189,7 +189,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TodoServiceTests.testRegister" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MemberDAOTests.testUpdateUuid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -202,7 +202,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.busanit501.service.TodoServiceTests.testRegister&quot;" />
+            <option value="&quot;com.busanit501.dao.MemberDAOTests.testUpdateUuid&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -213,7 +213,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TodoServiceTests.testRemove" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MemberServiceTests.testLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -226,7 +226,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.busanit501.service.TodoServiceTests.testRemove&quot;" />
+            <option value="&quot;com.busanit501.service.MemberServiceTests.testLogin&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceTests.testSearchWithUuid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.busanit501.service.MemberServiceTests.testSearchWithUuid&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceTests.updateUuid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.busanit501.service.MemberServiceTests.updateUuid&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -327,16 +375,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.TodoServiceTests.testModify" />
-      <item itemvalue="Gradle.TodoServiceTests.testRemove" />
-      <item itemvalue="Gradle.TodoServiceTests.testRegister" />
+      <item itemvalue="Gradle.MemberDAOTests.testSearchWithUuid" />
+      <item itemvalue="Gradle.MemberDAOTests.testUpdateUuid" />
+      <item itemvalue="Gradle.MemberServiceTests.testLogin" />
+      <item itemvalue="Gradle.MemberServiceTests.testSearchWithUuid" />
+      <item itemvalue="Gradle.MemberServiceTests.updateUuid" />
       <item itemvalue="Tomcat 서버.tomcat9" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TodoServiceTests.testModify" />
-        <item itemvalue="Gradle.TodoServiceTests.testRemove" />
-        <item itemvalue="Gradle.TodoServiceTests.testRegister" />
+        <item itemvalue="Gradle.MemberServiceTests.testSearchWithUuid" />
+        <item itemvalue="Gradle.MemberDAOTests.testSearchWithUuid" />
+        <item itemvalue="Gradle.MemberServiceTests.updateUuid" />
+        <item itemvalue="Gradle.MemberDAOTests.testUpdateUuid" />
+        <item itemvalue="Gradle.MemberServiceTests.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +418,8 @@
       <workItem from="1750636753976" duration="21039000" />
       <workItem from="1750810113295" duration="1105000" />
       <workItem from="1750811431396" duration="20137000" />
-      <workItem from="1750896397402" duration="18247000" />
+      <workItem from="1750896397402" duration="19586000" />
+      <workItem from="1750982193304" duration="18714000" />
     </task>
     <task id="LOCAL-00001" summary="250619 1530">
       <option name="closed" value="true" />
@@ -440,7 +493,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750840481431</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="250626 1655">
+      <option name="closed" value="true" />
+      <created>1750924533914</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750924533914</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,6 +527,7 @@
     <MESSAGE value="250623 0911" />
     <MESSAGE value="250623 1732" />
     <MESSAGE value="250625 1734" />
-    <option name="LAST_COMMIT_MESSAGE" value="250625 1734" />
+    <MESSAGE value="250626 1655" />
+    <option name="LAST_COMMIT_MESSAGE" value="250626 1655" />
   </component>
 </project>
